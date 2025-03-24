@@ -1,0 +1,12 @@
+{
+    "name": "meu-site",
+    "version": "1.0.0",
+    "description": "Plataforma para envio de mensagens com anexos",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js"
+    },
+    "dependencies": {
+        "multer": "^1.4.5-lts.2"
+    }
+}
