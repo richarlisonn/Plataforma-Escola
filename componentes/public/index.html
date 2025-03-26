@@ -1,33 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plataforma de Mensagens</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title> DS Plataform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/home.css">
 </head>
 <body>
-    <header>
-        <h1>3° DS</h1>
-    </header>
-
     <main>
-        <section id="form-container">
-            <h2>Envie uma mensagem</h2>
-            <form id="message-form">
-                <input type="text" id="title" placeholder="Título da mensagem" required>
-                <textarea id="content" placeholder="Escreva sua mensagem..." required></textarea>
-                <input type="file" id="attachment" multiple>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
+        <div class="tittle">
+            <h2>ESCOLHA</h2>
+        </div>
 
-        <section id="messages-container">
-            <h2>Mensagens</h2>
-            <div id="messages-list"></div>
-        </section>
+        <div class="rom">
+            <div class="btn">
+                <a href="admin.html" target="_blank">ADMIN</a>
+                <a href="user.html" target="_blank">ALUNO</a>
+            </div>
+        </div>
     </main>
-
-    <script src="js/script.js"></script>
 </body>
 </html>
